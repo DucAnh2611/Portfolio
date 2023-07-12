@@ -6,7 +6,7 @@ import PartNav from "./Part/Part";
 export default function Navigation(){
     return (
         <nav 
-        className="h-24 w-screen overflow-hidden flex justify-between items-center 
+        className="h-24 w-screen overflow-hidden flex justify-between items-center z-[2]
         box-border px-40 mx-auto my-0 border-b border-white sticky top-0 backdrop-blur-sm bg-black bg-opacity-50">
 
             <div className="h-full w-fit flex items-center justify-start">
@@ -18,6 +18,7 @@ export default function Navigation(){
                 <PartNav href="/#experiences" content="Experiences"/>
                 <PartNav href="/#skills" content="Skills"/>
                 <PartNav href="/#projects" content="Projects"/>
+                <PartNav href="/cv" content="My CV"/>
 
             </div>
 

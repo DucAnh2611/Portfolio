@@ -5,6 +5,7 @@ import * as faBrands from "@fortawesome/free-brands-svg-icons";
 import Experiences from "../../Components/Experiences/Experiences";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import myPic from "../../Image/ducanh.jpg";
+import Skills from "../../Components/Skills/Skills";
 
 export default function HomePage() {
     useEffect(()=>{
@@ -12,9 +13,9 @@ export default function HomePage() {
     }, [])
     return (
 
-        <div className="h-fit w-screen py-60 block">
+        <main className="h-fit w-screen py-60 block">
 
-            <div className="box-border px-96 flex items-center justify-between gap-10 relative 
+            <header className="box-border px-96 flex items-center justify-between gap-10 relative 
             before:bg-[url('./Assets/Image/SVG/logo_ducanh.svg')] before:absolute before:top-1/2 before:left-0 before:content-['_']
             before:h-[60rem] before:w-[60rem] before:bg-no-repeat before:opacity-20 before:translate-x-0 before:-translate-y-1/2 before:z-0">
 
@@ -36,22 +37,22 @@ export default function HomePage() {
 
                 <div className="w-1/3 h-fit grid place-items-center">
 
-                    <div className="h-fit w-fit rounded-xl overflow-hidden border-5 border-yellow-sec">
+                    <div className="h-fit w-fit rounded-xl overflow-hidden border-5 border-yellow-sec shadow-[50px_35px_10px_#FFC60B]">
                         <img 
-                        className="h-[30rem] w-auto"
+                        className="h-auto w-[20rem]"
                         src={myPic}
-                        alt="my picture"/>
+                        alt="me"/>
                     </div>
 
                 </div>
 
-            </div>
+            </header>
 
             <SectionWithHeader header="Experiences" content={<Experiences/>} bgColor={"black"} txtColor={"white"}/>
-            <SectionWithHeader header="Skills" content={<></>} bgColor={"black"} txtColor={"white"}/>
+            <SectionWithHeader header="Skills" content={<Skills/>} bgColor={"black"} txtColor={"white"}/>
             <SectionWithHeader header="Projects" content={<></>} bgColor={"yellow-sec"} txtColor={"black"}/>
             <SectionWithHeader header="Send me an email" content={<></>} bgColor={"black"} txtColor={"white"}/>
-        </div>
+        </main>
 
     )
 }

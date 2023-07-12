@@ -1,0 +1,105 @@
+{
+    "info": {
+        "name": "Nguyen hoang duc anh"
+    },
+    "experiences": [
+        {
+            "time" : "2/5/2023",
+            "name" : "Instagram Clone",
+            "detail" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+            "time" : "4/20/2023",
+            "name" : "Driving Bike Test",
+            "detail" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+            "time" : "5/11/2023",
+            "name" : "Word Scramble",
+            "detail" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+            "time" : "6/22/2023",
+            "name" : "Vegetable Website",
+            "detail" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+
+    ],
+    "skills": [
+        {
+            "name" : "Tech skills",
+            "content": [
+                {
+                    "name" : "Javascript",
+                    "icon" : "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+                    "level": 2.7
+                },
+                {
+                    "name" : "Postgresql",
+                    "icon" : "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
+                    "level": 2.5
+                },
+                {
+                    "name" : "SQL Server Management Studio",
+                    "icon" : "https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/10/logo.png",
+                    "level": 2.2
+                },
+                {
+                    "name" : "Sqlite",
+                    "icon" : "https://cdn.icon-icons.com/icons2/2699/PNG/512/sqlite_logo_icon_169724.png",
+                    "level": 2.8
+                },
+                {
+                    "name" : "Figma",
+                    "icon" : "https://upload.wikimedia.org/wikipedia/commons/a/ad/Figma-1-logo.png",
+                    "level": 3.2
+                }
+            ]
+        },
+        {
+            "name" : "Frameworks",
+            "content": [
+                {
+                    "name" : "Reactjs",
+                    "icon" : "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+                    "level": 2.7
+                },
+                {
+                    "name" : "Tailwind",
+                    "icon" : "https://www.drupal.org/files/project-images/screenshot_361.png",
+                    "level": 3
+                }
+            ]
+        },
+        {
+            "name" : "Others",
+            "content": [
+                {
+                    "name" : "Adobe Photoshop",
+                    "icon" : "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg",
+                    "level": 3.2
+                },
+                {
+                    "name" : "Adobe Illustrator",
+                    "icon" : "https://thelogocompany.net/wp-content/uploads/2023/04/Adobe-Illustrator-Icon.png",
+                    "level": 3.5
+                },
+                {
+                    "name" : "Word",
+                    "icon" : "https://cdn.freebiesupply.com/logos/large/2x/microsoft-word-2013-logo-logo-png-transparent.png",
+                    "level": 4.3
+                },
+                {
+                    "name" : "Excel",
+                    "icon" : "https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg",
+                    "level": 4
+                },
+                {
+                    "name" : "Powerpoint",
+                    "icon" : "https://upload.wikimedia.org/wikipedia/commons/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg",
+                    "level": 4.2
+                }
+            ]
+        }
+    ]
+}
