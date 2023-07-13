@@ -7,7 +7,7 @@ export default function Navigation(){
     return (
         <nav 
         className="h-24 w-screen overflow-hidden flex justify-between items-center z-[2]
-        box-border px-40 mx-auto my-0 border-b border-white sticky top-0 backdrop-blur-sm bg-black bg-opacity-50">
+        box-border px-40 mx-auto my-0 border-b border-white fixed top-0 backdrop-blur-sm bg-black bg-opacity-50">
 
             <div className="h-full w-fit flex items-center justify-start">
                 <a className="h-fit w-fit text-white" href="/"><MyLogo className="h-10"/></a>

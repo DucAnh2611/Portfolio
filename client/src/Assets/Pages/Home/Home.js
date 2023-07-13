@@ -6,6 +6,8 @@ import Experiences from "../../Components/Experiences/Experiences";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import myPic from "../../Image/ducanh.jpg";
 import Skills from "../../Components/Skills/Skills";
+import SendEmail from "../../Components/SendEmail/SendEmail";
+import Projects from "../../Components/Projects/Projects";
 
 export default function HomePage() {
     useEffect(()=>{
@@ -50,8 +52,8 @@ export default function HomePage() {
 
             <SectionWithHeader header="Experiences" content={<Experiences/>} bgColor={"black"} txtColor={"white"}/>
             <SectionWithHeader header="Skills" content={<Skills/>} bgColor={"black"} txtColor={"white"}/>
-            <SectionWithHeader header="Projects" content={<></>} bgColor={"yellow-sec"} txtColor={"black"}/>
-            <SectionWithHeader header="Send me an email" content={<></>} bgColor={"black"} txtColor={"white"}/>
+            <SectionWithHeader header="Projects" content={<Projects/>} bgColor={"yellow-sec"} txtColor={"black"}/>
+            <SectionWithHeader header="Send me an email" content={<SendEmail/>} bgColor={"black"} txtColor={"white"}/>
         </main>
 
     )

@@ -22,9 +22,10 @@ export default function AppRouter() {
             <Route element={<WithNav/>}>
 
                 <Route exact path="/" element={<HomePage/>} />
-                <Route exact path="/cv" element={<Resume/>} />
 
             </Route>
+
+            <Route exact path="/cv" element={<Resume/>} />
 
         </ListRoute>
     )

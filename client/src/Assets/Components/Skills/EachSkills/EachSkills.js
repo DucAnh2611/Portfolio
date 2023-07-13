@@ -5,7 +5,7 @@ export default function EachSkills({title, content}){
     
     const [dict, SetDict] = useState({
         "1": "Novice",
-        "2": "Beginer",
+        "2": "Beginner",
         "3": "Competent",
         "4": "Proficient",
         "5": "Expert"
@@ -70,7 +70,7 @@ export default function EachSkills({title, content}){
                                                     ? "100%" 
                                                     : `${ Math.round(100 + (e.level - (idx+1))*100) }%` 
                                                 }}
-                                                className={`bg-yellow h-5 rounded-md relative group-hover:scale-125 group`}
+                                                className={`bg-yellow h-5 rounded-md relative duration-300 group-hover:scale-125 group hover:scale-110`}
                                                 >
                                                     <p
                                                     className="absolute hidden top-[-30px] left-1/2 -translate-x-1/2 group-hover:block"
